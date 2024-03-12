@@ -1,2 +1,3 @@
-const myVar = "C is fun \n Python is cool \n JavaScript is amazing";
-console.log(myVar);
+#!/usr/bin/node
+
+console.log('C is fun\nPython is cool\nJavaScript is amazing');

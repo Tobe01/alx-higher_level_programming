@@ -1,13 +1,10 @@
-function add(a, b) {
-    return a + b;
+#!/usr/bin/node
+
+const num1 = parseInt(process.argv[2]);
+const num2 = parseInt(process.argv[3]);
+
+function add (a, b) {
+  return a + b;
 }
 
-const arg1 = parseInt(process.argv[2]);
-const arg2 = parseInt(process.argv[3]);
-
-if (!isNaN(arg1) && !isNaN(arg2)) {
-    console.log(add(arg1, arg2));
-} else {
-    console.log("Missing integer(s)");
-}
-
+console.log(add(num1, num2));
